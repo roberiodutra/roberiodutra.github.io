@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+p , h3 {
+  text-align: center;
+  line-height: normal;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  font-family: Source Sans Pro, serif;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(2, 79, 129, 0.7);
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+#natural-effect {
+  font-size: 20px;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-right: 30px;
+  background-color: rgba(3, 3, 3, 0.5);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: rgb(161, 216, 216);
+}
+
+.picture {
+  display: block;
+  border: 1px solid rgb(212, 212, 212);
+  margin-top: 220px;
+  text-align: center;
+}
+
+.picture img {
+  width: 200px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.picture p {
+  font-size: 14px;
+}
+
+.lessons_learned , .lessons_not_learned {
+  display: inline-block;
+  width: 49.5%;
+  margin-top: 10px;
+  border: 1px solid rgb(212, 212, 212);
+  background-color: rgba(238, 214, 214, 0.5);
+}
+
+.lado-direito , .lado-esquerdo {
+  display: inline-block;
+  background-color: rgb(229, 241, 245);
+  border: 1px solid rgb(212, 212, 212);
+  width: 49.5%;
+  margin-top: 5px;
+  height: 200px;
+  vertical-align: top;
+}
+
+.lado-direito p , .lado-esquerdo p {
+  margin: 0 20px;
+}
+
+#subtitulo {
+  background-color: rgba(238, 214, 214, 0.5);
+  padding: 10px;
+  text-align: center;
+}
+
+table , th , td {
+  border: 1px solid rgb(212, 212, 212);
+  border-collapse: collapse;
+  margin: 15px;
+  text-align: center;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  background-color: rgba(238, 214, 214, 0.5);
+}
+
+footer {
+  margin-top: 20px;
+  background-color: rgb(220, 233, 238);
+  height: 50px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+#rodape {
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.material-icons.orange600 {
+  color: rgb(240, 151, 151);
+}
+
+.material-icons.orange700 {
+  color: rgb(160, 244, 255);
+}
