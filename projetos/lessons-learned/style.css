@@ -36,6 +36,10 @@ p , h3 {
   color: rgb(161, 216, 216);
 }
 
+ol li , ul li {
+  list-style: none;
+}
+
 .picture {
   display: block;
   border: 1px solid rgb(212, 212, 212);
@@ -60,6 +64,7 @@ p , h3 {
   margin-top: 10px;
   border: 1px solid rgb(212, 212, 212);
   background-color: rgba(238, 214, 214, 0.5);
+  text-align: center;
 }
 
 .lado-direito , .lado-esquerdo {
