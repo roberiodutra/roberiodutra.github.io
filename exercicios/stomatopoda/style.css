@@ -22,7 +22,7 @@ h1 {
 .menu img , .artigo img {
   width: 17px;
   padding-right: 2px;
-  filter: brightness(80%)
+  filter: brightness(80%);
 }
 
 .home , .about , .contact {
@@ -45,7 +45,7 @@ h1 {
 #logo img {
   width: 200px;
   height: 110px;
-  filter: brightness(80%)
+  filter: brightness(80%);
 }
 
 .menu li {
@@ -65,18 +65,19 @@ h1 {
 #main-section {
   background-color: rgb(65, 88, 107);
   margin: auto;
-  width: 855px;
-  padding: 10px 5px 5px 10px;
+  width: 895px;
+  padding: 30px 5px 5px 30px;
 }
 
 .first-section , .second-section , .third-section , .fourth-section {
   display: inline-block;
   background-repeat: no-repeat;
   vertical-align: top;
-  width: 425px;
-  height: 620px;
-  filter: brightness(80%)
+  width: 445px;
+  height: 640px;
+  filter: brightness(80%);
 }
+
 .first-section {
   background-image: url(/images/card-4.jpg);
 }
