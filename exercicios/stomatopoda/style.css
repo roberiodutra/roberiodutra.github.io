@@ -79,19 +79,19 @@ h1 {
 }
 
 .first-section {
-  background-image: url(/images/card-4.jpg);
+  background-image: url(/exercicios/stomatopoda/images/card-4.jpg);
 }
 
 .second-section {
-  background-image: url(/images/card-5.jpg);
+  background-image: url(/exercicios/stomatopoda/images/card-5.jpg);
 }
 
 .third-section {
-  background-image: url(/images/card-3.jpg);
+  background-image: url(/exercicios/stomatopoda/images/card-3.jpg);
 }
 
 .fourth-section {
-  background-image: url(/images/card-2.jpg);
+  background-image: url(/exercicios/stomatopoda/images/card-2.jpg);
 }
 
 .first-section p , .second-section p , .third-section p , .fourth-section p {
