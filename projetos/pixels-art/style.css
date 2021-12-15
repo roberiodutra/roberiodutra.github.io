@@ -50,7 +50,7 @@ transition: 0.5s ease;
 }
 
 .rubber {
-  background-image: url(/images/rubber.jpg);
+  background-image: url(/projetos/pixels-art/images/rubber.jpg);
   border: 1px solid black;
 }
 
@@ -95,7 +95,7 @@ transition: 0.5s ease;
   height: 14px;
   margin: 0;
   opacity: 0.5;
-  cursor: url('/images/Circly.png'), default;
+  cursor: url('/projetos/pixels-art/images/Circly.png'), default;
 }
 
 #section-buttons {

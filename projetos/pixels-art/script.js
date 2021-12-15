@@ -173,7 +173,7 @@ function guiaButton() {
 
 function changeBg() {
   const imgCount = 11;
-  const dir = '/bgimages/';
+  const dir = '/projetos/pixels-art/bgimages/';
   const randomCount = (Math.floor(Math.random() * imgCount));
   const images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg'];
   document.getElementById('pixel-board').setAttribute("style", "background-image: url(" + dir + images[randomCount] + ")");
