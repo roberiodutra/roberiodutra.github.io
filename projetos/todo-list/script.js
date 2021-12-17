@@ -18,7 +18,7 @@ const buttons = {
   'salvar-tarefas': 'Salvar Tarefas',
   'mover-cima': 'MoveUP',
   'mover-baixo': 'MoveDown',
-  'remover-selecionado': 'Remover',
+  'remover-selecionado': 'Remove',
 };
 
 function createButtons() {
