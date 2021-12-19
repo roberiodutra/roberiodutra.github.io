@@ -95,6 +95,10 @@ input:focus::placeholder {
   height: 32px;
 }
 
+#criar-tarefa img {
+	opacity: 0.5;
+}
+
 .div-buttons {
   height: 60px;
   position: relative;
