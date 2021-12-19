@@ -33,7 +33,7 @@ body {
 	margin: 0 auto;
   margin-bottom: 50px;
   background: black;
-  background-image: url(/images/bg.png);
+  background-image: url(/projetos/todo-list/images/bg.png);
   background-repeat: no-repeat;
   box-shadow: inset 0 0 1em rgba(5, 115, 189, 0.7), 0 0 0.7em rgba(5, 115, 189, 0.7);
 }
@@ -53,7 +53,7 @@ li {
 	border-top: solid 1px lightblue;
 	border-bottom: solid 1px lightblue;
   list-style: none;
-  background-image:url(/images/vgrey-mini.png);
+  background-image:url(/projetos/todo-list/images/vgrey-mini.png);
   background-repeat: no-repeat;
   padding-left: 30px;
 }
