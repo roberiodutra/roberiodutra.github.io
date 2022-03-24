@@ -58,7 +58,6 @@ class MusicPlayer extends Component {
   controls = ({ currentTarget: { name } }) => {
     const { url } = this.state;
     const isName = ["play", "pause"];
-    const states = ["isPlaying", "isPlaying"];
     const booleans = [true, false];
 
     if (name === "play" && url === "") {
@@ -67,7 +66,7 @@ class MusicPlayer extends Component {
 
     isName.forEach((elem, i) => {
       if (name === elem) {
-        this.setState({ [states[i]]: booleans[i] });
+        this.setState({ isPlaying: booleans[i] });
       }
     });
 
