@@ -41,7 +41,7 @@ const CardButtons = ({ svn_url }) => {
   return (
     <div className="d-grid gap-2 d-md-block">
       <a
-        href={`${svn_url}/archive/master.zip`}
+        href={`${svn_url}/archive/main.zip`}
         className="btn btn-outline-secondary mx-2"
       >
         <i className="fab fa-github" /> Clone Project
