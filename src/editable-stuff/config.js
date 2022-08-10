@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/perfil.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is Robério Dutra. With every passing minute, I learn more, in a process of constant study, improving hard and soft skills. That's my day-to-day, and I intend it to be that way forever. I'm an actor, I changed my career to be a Full-Stack developer with the intention of impacting people's lives with technology, which I have always been and always will be passionate about.",
   resume: "",
 };
 
@@ -67,12 +67,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/perfil.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/perfil.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -88,24 +88,24 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "SQL", value: 75 },
+    { name: "Docker", value: 85 },
+    { name: "Typescript", value: 65 },
+    { name: "Tests", value: 90 },
+    { name: "Reactjs", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Nodejs", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
+    { name: "Collaboration", value: 90 },
+    { name: "Positivity", value: 80 },
+    { name: "Adaptability", value: 75 },
+    { name: "Problem Solving", value: 80 },
+    { name: "Empathy", value: 95 },
+    { name: "Organization", value: 80 },
+    { name: "Goal-Oriented", value: 85 },
   ],
 };
 
@@ -114,8 +114,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm looking for Full-Stack proposals, in projects that aim to change people's lives, especially those from poor communities.",
+  email: "dev.roberio@gmail.com",
 };
 
 const experiences = {
@@ -124,12 +124,12 @@ const experiences = {
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
+      companylogo: '',
       date: 'June 2018 – Present',
     },
     {
       role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
+      companylogo: '',
       date: 'May 2017 – May 2018',
     },
   ]
