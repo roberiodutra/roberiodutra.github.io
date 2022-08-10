@@ -124,12 +124,12 @@ const experiences = {
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require(''),
+      companylogo: '',
       date: 'June 2018 – Present',
     },
     {
       role: 'Front-End Developer',
-      companylogo: require(''),
+      companylogo: '',
       date: 'May 2017 – May 2018',
     },
   ]
