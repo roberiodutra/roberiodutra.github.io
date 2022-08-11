@@ -56,7 +56,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "roberiodutra", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ['blogs-api', 'trybewallet', 'store-manager', 'recipes-app'],
 };
 
 // Leadership SECTION
@@ -92,10 +92,14 @@ const skills = {
     { name: "SQL", value: 88 },
     { name: "Docker", value: 85 },
     { name: "Typescript", value: 80 },
-    { name: "Tests", value: 95 },
+    { name: "Nodejs", value: 95 },
     { name: "Reactjs", value: 95 },
     { name: "HTML/CSS", value: 98 },
-    { name: "Nodejs", value: 95 },
+    { name: "Jest", value: 95 },
+    { name: "Testing Library", value: 90 },
+    { name: "Sass", value: 85 },
+    { name: "Redux", value: 90 },
+    { name: "Bootstrap", value: 95 },
   ],
   softSkills: [
     { name: "Creativity", value: 90 },
