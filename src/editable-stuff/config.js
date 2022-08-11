@@ -55,8 +55,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "roberiodutra", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: ['blogs-api', 'trybewallet', 'store-manager', 'recipes-app'],
+  reposLength: 6,
+  specificRepos: [],
 };
 
 // Leadership SECTION
