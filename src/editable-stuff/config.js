@@ -55,7 +55,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "roberiodutra", //i.e."johnDoe12Gh"
-  reposLength: 6,
+  reposLength: 0,
   specificRepos: ['blogs-api', 'trybewallet', 'talker-manager', 'recipes-app', 'meme-timer', 'trybesmith'],
 };
 
