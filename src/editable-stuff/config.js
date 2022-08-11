@@ -114,7 +114,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm looking for Full-Stack proposals, in projects that aim to change people's lives, especially those from poor communities.",
+    "I'm looking for Full-Stack proposals, in projects that aim to change people's lives, especially those from poor communities",
   email: "dev.roberio@gmail.com",
 };
 
